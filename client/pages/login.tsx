@@ -23,7 +23,7 @@ mutation($data: userInput!) {
 
 
 
-const login: NextPage = ()=> {
+const Login: NextPage = ()=> {
   
 
 
@@ -84,4 +84,4 @@ const login: NextPage = ()=> {
 }
 
 
-export default login
+export default Login

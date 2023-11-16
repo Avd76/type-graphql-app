@@ -22,7 +22,7 @@ mutation($data: userInput!) {
 
 
 
-const register: NextPage = ()=> {
+const Register: NextPage = ()=> {
   const router = useRouter()
          const [, register ] = useMutation(REGISTER_MUT)
 
@@ -53,4 +53,4 @@ const register: NextPage = ()=> {
 
 
 
-export default register
+export default Register

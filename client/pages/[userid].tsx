@@ -70,7 +70,7 @@ function search(arr: any[]){
 }
 
 
-const userPage: NextPage = ()=> {
+const UserPage: NextPage = ()=> {
 
   const [todos, setTodos] = useState<todoType[]>([])
 
@@ -197,4 +197,4 @@ console.log('id', userid)
 
 
   }
-export default userPage
+export default UserPage
